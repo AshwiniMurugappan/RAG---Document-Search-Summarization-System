@@ -4,7 +4,7 @@ A high-performance **Retrieval-Augmented Generation (RAG)** application designed
 
 ---
 
-
+![Dashboard Screenshot](DocSearchandSum.png)
 
 ## 🎯 Project Objective
 The primary goal of this system is to bridge the gap between traditional keyword search and generative AI. By combining **FAISS** for efficient information retrieval and **LLMs** for synthesis, the application provides context-aware answers and adjustable summaries based on specific user queries, significantly reducing the time required to analyze large document sets.
