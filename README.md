@@ -62,7 +62,9 @@ pip install streamlit langchain langchain-community sentence-transformers faiss-
 
 ### 4. Download the LLM Model
 1. Download `mistral-7b-instruct-v0.1.Q4_K_M.gguf` from **TheBloke** on Hugging Face.
-2. Place the `.gguf` file in the root project directory (the same folder as `chatbot.py`).
+
+### 5. Usage
+* Place your PDF files in the /data folder or upload them through the UI:
 
 ---
 
@@ -82,6 +84,16 @@ pip install streamlit langchain langchain-community sentence-transformers faiss-
 * **Option A:** Use the sidebar to upload PDF files directly from your computer.
 * **Option B:** Provide an absolute local folder path containing your PDFs.
 * **Search:** Enter your query in the search bar to see source **excerpts** and the **AI summary** generated side-by-side.
+
+---
+
+## 🔍 How It Works
+
+1. **Ingestion:** PDFs are read and broken into smaller "chunks" of text.
+
+2. **Embedding:** Text chunks are converted into mathematical vectors.
+
+3. **Local Inference:** When a query is made, the local GGUF model scans the vectors to find the most relevant information and generates a summary.
 
 ---
 
