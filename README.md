@@ -4,6 +4,8 @@ A high-performance **Retrieval-Augmented Generation (RAG)** application designed
 
 ---
 
+
+
 ## 🎯 Project Objective
 The primary goal of this system is to bridge the gap between traditional keyword search and generative AI. By combining **FAISS** for efficient information retrieval and **LLMs** for synthesis, the application provides context-aware answers and adjustable summaries based on specific user queries, significantly reducing the time required to analyze large document sets.
 
@@ -49,7 +51,8 @@ The system is built on a modular **RAG pipeline**, ensuring the LLM only answers
 
 ### 2. Clone the Repository
 ```bash
-cd "C:\Users\osrnm\Documents\VScode\RAG chatbot"
+git clone [https://github.com/AshwiniMurugappan/RAG---Document-Search-Summarization-System.git]([https://github.com/your-username/multi-step-reasoning-agent.git](https://github.com/AshwiniMurugappan/RAG---Document-Search-Summarization-System.git))
+cd RAG---Document-Search-Summarization-System
 ```
 
 ### 3. Install Dependencies
@@ -67,7 +70,7 @@ pip install streamlit langchain langchain-community sentence-transformers faiss-
 1. Open your terminal or **Anaconda Prompt**.
 2. Navigate to your project folder:
    ```bash
-   cd "C:\Users\osrnm\Documents\VScode\RAG chatbot"
+   cd RAG---Document-Search-Summarization-System
    ```
 
 3. Launch the app:
